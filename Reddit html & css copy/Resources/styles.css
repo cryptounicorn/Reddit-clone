@@ -1,0 +1,118 @@
+/*This document is the style sheet for the Reddit clone */
+
+
+#entire-toolbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 2px solid black;
+    border-radius: 5px;
+
+    height: 50px;
+    width: 100%;
+}
+
+#left-half, #right-half {
+    display: flex;
+}
+
+#left-half {
+    width: 100%;
+}
+
+#right-half {
+    width: 525px;
+   display: flex;
+   flex-direction: row;
+   justify-content: end;
+   float: right;
+}
+
+#toolbar1 {
+    display: flex;
+    width: 110px;
+    align-items: center;
+    border-left: 2px lightgrey;
+}
+
+#toolbar2 {
+    display: flex;
+    width: 400px;
+    align-items: center;
+    justify-content: ;
+}
+
+.toolbar-button {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#logo{
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+#homebox {
+    width: 125px;
+    align-items: center;
+}
+
+#home {
+    display: flex;
+    height: 34px;
+    align-items: center;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+#homeimg {
+    height: 20px;
+    width: 20px;
+}
+
+#searchbar {
+    display: flex;
+    height: 40px;
+    width: auto;
+    background-color: #f6f7f8;
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+    align-items: center;
+    flex-grow: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: left;
+}
+
+#searchbox {
+    align-items: center;
+    height: 23px;
+    width: 100%;
+    margin-right: 15px;
+}
+
+#searchicon {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+#search {
+    opacity: 100%;
+    width: 100%;
+    margin-right: 15px;
+}
+
+#advertise-button {
+    display: flex;
+    height: 32px;
+    width: 114px;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgrey;
+    border-radius: 50px;
+}
+
+#profile-container {
+    display: flex;
+}
